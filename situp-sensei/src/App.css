@@ -1,3 +1,23 @@
+/* Imports */
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext');
+
+body {
+  font-size: 16px;
+}
+
+p {
+  font-size: 1rem;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+/* Landing Page */
+h1, h2, h3, h4, h5, h6 {
+  font-family: GangOfThree;
+}
+
 .App {
   text-align: center;
 }
@@ -9,7 +29,7 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 5s linear;
   }
 }
 
@@ -19,7 +39,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: black;
 }
 
@@ -34,4 +53,38 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* Primary & Secondary Buttons */
+/* Source: https://www.w3schools.com/css/css3_buttons.asp */
+.PrimaryButton {
+  background-color: #ffffff;
+  border: 2px solid #000000;
+  color: rgb(0, 0, 0);
+  border-radius: 15px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: bold;
+  font-family: "Saira", sans-serif;
+  width: 10rem;
+  height: 1rem;
+  margin: 0.5rem;
+}
+
+.SecondaryButton {
+  background-color: #000000;
+  border: 2px solid #000000;
+  color: rgb(255, 255, 255);
+  border-radius: 15px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: bold;
+  font-family: "Saira", sans-serif;
+  width: 10rem;
+  height: 1rem;
+  margin: 0.5rem;
 }
