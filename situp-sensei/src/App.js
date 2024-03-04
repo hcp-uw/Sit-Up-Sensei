@@ -6,8 +6,14 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
+        <h1 className="App-title">
           Sit-Up Sensei
+        </h1>
+        <p className="PrimaryButton">
+          CREATE ACCOUNT
+        </p>
+        <p className="SecondaryButton">
+          LOG IN
         </p>
       </header>
     </div>
