@@ -1,9 +1,5 @@
 /* Imports */
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext');
-
-body {
-  font-size: 16px;
-}
+@import url('https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
 
 p {
   font-size: 1rem;
@@ -11,6 +7,23 @@ p {
 
 h1 {
   font-size: 3rem;
+}
+
+p, a {
+  font-family: "Saira", sans-serif;
+}
+
+/* NavBar */
+.navLinks:hover {
+  transform: scale(1.1);
+  transition: transform 0.2s ease;
+  font-weight: bold;
+  transition: font-weight 1s ease;
+}
+
+.navLinks:not(:hover) {
+  transition: transform 0.2s ease, background-color 0.2s ease;
+  transform: scale(1);
 }
 
 /* Landing Page */
@@ -23,12 +36,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 30vmin;
+  pointer-events: none;
+}
+
+.Star-logo {
   pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
+  .Star-logo {
     animation: App-logo-spin infinite 5s linear;
   }
 }
@@ -68,9 +85,23 @@ h1, h2, h3, h4, h5, h6 {
   display: inline-block;
   font-weight: bold;
   font-family: "Saira", sans-serif;
-  width: 10rem;
-  height: 1rem;
   margin: 0.5rem;
+  width: 16rem;
+}
+
+.PrimaryButton:hover {
+  transform: scale(1.1);
+  transition: transform 0.2s ease;
+}
+
+.PrimaryButton:not(:hover) {
+  transition: transform 0.2s ease, background-color 0.2s ease;
+  transform: scale(1);
+}
+
+.PrimaryButton:active {
+  transform: scale(0.9);
+  transition: transform 0.2s ease;
 }
 
 .SecondaryButton {
@@ -84,7 +115,21 @@ h1, h2, h3, h4, h5, h6 {
   display: inline-block;
   font-weight: bold;
   font-family: "Saira", sans-serif;
-  width: 10rem;
-  height: 1rem;
   margin: 0.5rem;
+  width: 16rem;
+}
+
+.SecondaryButton:hover {
+  transform: scale(1.1);
+  transition: transform 0.2s ease;
+}
+
+.SecondaryButton:not(:hover) {
+  transition: transform 0.2s ease, background-color 0.2s ease;
+  transform: scale(1);
+}
+
+.SecondaryButton:active {
+  transform: scale(0.9);
+  transition: transform 0.2s ease;
 }
