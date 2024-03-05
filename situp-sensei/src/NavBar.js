@@ -28,7 +28,7 @@ function NavBar() {
                         <Link to="/">
                             <p className="m-2 navLinks">HOME</p>
                         </Link>
-                        <Link>
+                        <Link to="/about">
                             <p className="m-2 navLinks">ABOUT</p>
                         </Link>
                     </ul>
