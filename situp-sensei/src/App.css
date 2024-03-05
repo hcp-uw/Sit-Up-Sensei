@@ -1,5 +1,10 @@
 /* Imports */
 @import url('https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
+@font-face {
+  font-family: 'GangOfThree';
+  src: local('GangOfThree'),
+      url('./fonts/got.otf') format('otf');
+}
 
 p {
   font-size: 1rem;
@@ -137,4 +142,20 @@ h1, h2, h3, h4, h5, h6 {
 /* Webcam */
 video {
   transform: scaleX(-1);
+}
+
+/* About Us Page */
+.aboutUsCard:hover {
+  transform: scale(1.1);
+  transition: transform 0.2s ease;
+}
+
+.aboutUsCard:not(:hover) {
+  transition: transform 0.2s ease, background-color 0.2s ease;
+  transform: scale(1);
+}
+
+.aboutUsCard:active {
+  transform: scale(0.9);
+  transition: transform 0.2s ease;
 }
