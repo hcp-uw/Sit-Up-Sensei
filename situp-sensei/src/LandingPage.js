@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import React from 'react';
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
 
 function LandingPage() {
     return (
@@ -21,6 +21,11 @@ function LandingPage() {
                 <Link to="/">
                     <p className="SecondaryButton">
                         LOG IN
+                    </p>
+                </Link>
+                <Link to="/webcam">
+                    <p className="PrimaryButton">
+                        WEBCAM PAGE
                     </p>
                 </Link>
             </header>

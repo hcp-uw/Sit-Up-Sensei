@@ -133,3 +133,8 @@ h1, h2, h3, h4, h5, h6 {
   transform: scale(0.9);
   transition: transform 0.2s ease;
 }
+
+/* Webcam */
+video {
+  transform: scaleX(-1);
+}

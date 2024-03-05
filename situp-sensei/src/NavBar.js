@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import star from './star.png';
 import React from 'react';
+import { Link } from 'react-router-dom'
 
 function NavBar() {
     return (
@@ -21,9 +22,15 @@ function NavBar() {
                 </div>
                 <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1 mr-20 ml-1" id="navbar-sticky">
                     <ul class="flex flex-col md:p-0 font-medium rounded-lg rtl:space-x-reverse md:flex-row">
-                        <p className="m-2 navLinks">DOJO</p>
-                        <p className="m-2 navLinks">HOME</p>
-                        <p className="m-2 navLinks">ABOUT</p>
+                        <Link to="/">
+                            <p className="m-2 navLinks">DOJO</p>
+                        </Link>
+                        <Link to="/">
+                            <p className="m-2 navLinks">HOME</p>
+                        </Link>
+                        <Link>
+                            <p className="m-2 navLinks">ABOUT</p>
+                        </Link>
                     </ul>
                 </div>
             </div>
