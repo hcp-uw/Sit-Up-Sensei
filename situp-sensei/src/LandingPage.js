@@ -1,14 +1,23 @@
 import logo from './logo.svg';
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { motion } from 'framer-motion';
 
 function LandingPage() {
     return (
         <div className="App">
             <header className="App-header">
-                <img src={logo} className="App-logo" alt="logo" />
+                <motion.img
+                    initial={{ pathLength: 0 }}
+                    animate={{ pathLength: 1 }}
+                    src={logo}
+                    className="App-logo"
+                    alt="logo"
+                    whileHover={{ scale: 1.1 }}
+                    whileTap={{ scale: 1.1 }}
+                />
                 <h1 className="App-title">
-                Sit-Up Sensei
+                    Sit-Up Sensei
                 </h1>
                 <p>
 
