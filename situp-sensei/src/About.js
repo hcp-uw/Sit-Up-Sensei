@@ -9,6 +9,7 @@ function About() {
                 <CreateAboutCard imageName={simon} name={"Simon Kurgan"} title={"Programmer (Brain)"} linkedin={"https://www.linkedin.com/in/simon-kurgan/"}/>
                 <CreateAboutCard imageName={simon} name={"Simon Kurgan"} title={"Programmer (Brain)"} linkedin={"https://www.linkedin.com/in/simon-kurgan/"}/>
                 <CreateAboutCard imageName={simon} name={"Simon Kurgan"} title={"Programmer (Brain)"} linkedin={"https://www.linkedin.com/in/simon-kurgan/"}/>
+                <CreateAboutCard imageName={simon} name={"Simon Kurgan"} title={"Programmer (Brain)"} linkedin={"https://www.linkedin.com/in/simon-kurgan/"}/>
             </div>
         </div>
     )
