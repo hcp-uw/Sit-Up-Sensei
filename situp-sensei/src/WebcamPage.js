@@ -34,7 +34,7 @@ const WebcamComponent = () => {
                 {webcamStartText}
             </p>
             <div className={webcamClass}>
-                {webcamIsOn && <Webcam  
+                {webcamIsOn && <Webcam
                     audio={false}
                     height={600}
                     screenshotFormat="image/jpeg"
